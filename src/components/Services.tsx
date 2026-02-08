@@ -1,29 +1,8 @@
-import { styles } from "@/styles";
 import { motion } from "framer-motion";
 
 import { Sparkles, SquareScissors, User } from "lucide-react";
 import { FaHandsWash } from "react-icons/fa";
 import { MdFace2, MdOutlineWorkspacePremium } from "react-icons/md";
-const container = {
-  hidden: {},
-  show: {
-    transition: {
-      staggerChildren: 0.15, // each card appears after 0.15s
-    },
-  },
-};
-
-const item = {
-  hidden: { opacity: 0, y: 30 },
-  show: {
-    opacity: 1,
-    y: 0,
-    transition: {
-      duration: 0.9,
-      easing: "easeOut",
-    },
-  },
-};
 
 const services = [
   {
